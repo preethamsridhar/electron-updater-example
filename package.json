@@ -1,10 +1,11 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Preetham Sridhar",
   "scripts": {
+    "start": "electron .",
     "publish": "build -p always"
   },
   "devDependencies": {
